@@ -1,0 +1,11 @@
+backbone,variant,paper_name,unified_precision,unified_recall,unified_f1,delta_vs_greedy_f1_points,train_script_f1,train_minus_unified_f1_points,checkpoint
+CINO,greedy baseline,cino_greedy_baseline,0.801524,0.825692,0.813428,0.00,0.8135,0.01,results_baseline_v3/cino-base-v2/greedy/only_greedy/checkpoint-13040
+CINO,full enhanced,cino_full,0.773056,0.824040,0.797734,-1.57,0.8133,1.56,results_ablation_v3/cino-base-v2/greedy/Full_Model/checkpoint-16300
+CINO,w/o DMA,cino_wo_dma,0.778947,0.825279,0.801444,-1.20,0.8013,-0.01,results_ablation_v3/cino-base-v2/greedy/w_o_DMA/checkpoint-5868
+CINO,w/o FGM,cino_wo_fgm,0.763028,0.806416,0.784122,-2.93,0.8103,2.62,results_ablation_v3/cino-base-v2/greedy/w_o_FGM/checkpoint-9128
+CINO,w/o MSD,cino_wo_msd,0.780453,0.830098,0.804510,-0.89,0.8159,1.14,results_ablation_v3/cino-base-v2/greedy/w_o_MSD/checkpoint-14344
+XLM-R,greedy baseline,xlmr_greedy_baseline,0.782903,0.807213,0.794872,0.00,0.7948,-0.01,results_baseline_v3/xlm-roberta-base/greedy/only_greedy/checkpoint-5868
+XLM-R,full enhanced,xlmr_full,0.732028,0.822861,0.774791,-2.01,0.8098,3.50,results_ablation_v3/xlm-roberta-base/greedy/Full_Model/checkpoint-14344
+XLM-R,w/o DMA,xlmr_wo_dma,0.795199,0.822127,0.808439,1.36,0.8084,-0.00,results_ablation_v3/xlm-roberta-base/greedy/w_o_DMA/checkpoint-17604
+XLM-R,w/o FGM,xlmr_wo_fgm,0.750028,0.824572,0.785535,-0.93,0.8105,2.50,results_ablation_v3/xlm-roberta-base/greedy/w_o_FGM/checkpoint-16300
+XLM-R,w/o MSD,xlmr_wo_msd,0.744279,0.822983,0.781655,-1.32,0.8136,3.19,results_ablation_v3/xlm-roberta-base/greedy/w_o_MSD/checkpoint-10432

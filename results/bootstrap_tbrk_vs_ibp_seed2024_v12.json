@@ -1,0 +1,43 @@
+{
+  "n_examples": 4636,
+  "n_boot": 10000,
+  "seed": 2024,
+  "primary": {
+    "point": {
+      "precision": 0.7849313167753573,
+      "recall": 0.7739772882747298,
+      "f1": 0.7794158170294847,
+      "tp": 5657,
+      "fp": 1550,
+      "fn": 1652
+    },
+    "f1_ci95": [
+      0.7673817801379162,
+      0.791328305150597
+    ]
+  },
+  "baseline": {
+    "point": {
+      "precision": 0.7658476991991313,
+      "recall": 0.7719250239430838,
+      "f1": 0.7688743526846552,
+      "tp": 5642,
+      "fp": 1725,
+      "fn": 1667
+    },
+    "f1_ci95": [
+      0.7563780083942427,
+      0.7810016818414909
+    ]
+  },
+  "paired_delta": {
+    "f1_point": 0.010541464344829499,
+    "f1_ci95": [
+      0.007339925142493059,
+      0.013889712263195264
+    ],
+    "p_delta_le_0": 0.0
+  },
+  "primary_json": "/home/ubuntu/GYF/LLM_NER/reports/test_error_analysis_tbrk_ibp_cino_seed2024_v12_itemcounts.json",
+  "baseline_json": "/home/ubuntu/GYF/LLM_NER/reports/test_error_analysis_ibp_cino_seed2024_v12_itemcounts.json"
+}
