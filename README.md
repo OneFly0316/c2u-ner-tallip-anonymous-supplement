@@ -4,6 +4,10 @@ This repository is the anonymous review package for the manuscript **C2U-NER: Ch
 
 The package is designed for ACM TALLIP review. It provides manuscript files, data documentation, reproducibility materials, result tables, figure files, scripts, and a redacted manual-audit template. It intentionally excludes author-identifying metadata and any source-side or target-side text that may be subject to redistribution restrictions.
 
+Current public URL: https://github.com/OneFly0316/c2u-ner-tallip-anonymous-supplement
+
+Double-blind note: this repository is currently hosted under a personal account for material staging. Before formal double-blind submission, transfer or mirror it to an anonymous account or organization and use that anonymized URL in the submission system.
+
 ## Repository Layout
 
 | Directory | Contents |
@@ -47,7 +51,7 @@ The source side is based on a publicly circulated 1998 People's Daily NER resour
 
 ## GitHub Setup
 
-This directory can be pushed as an anonymous review repository after GitHub CLI authentication:
+This directory can be pushed or updated after GitHub authentication:
 
 ```bash
 cd submission/C2U_NER_TALLIP_anon_supplement
@@ -55,4 +59,3 @@ bash scripts/create_github_repo.sh
 ```
 
 If `gh` is not installed, install GitHub CLI first, then run `gh auth login`.
-

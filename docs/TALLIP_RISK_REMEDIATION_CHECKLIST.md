@@ -19,7 +19,7 @@ This checklist converts reviewer-style concerns into concrete manuscript and sup
 |---|---|---|
 | Double-review Uyghur manual audit | Reviewer A/B judgments, adjudication, pass rates, Cohen's kappa, error-type counts | Manuscript Table 6; data card; final supplement |
 | People's Daily source version and license | Exact release URL or file, download/access date, license terms, redistribution permission | Manuscript Table 3; source license template; data availability |
-| Anonymous GitHub URL | Repository URL created under an anonymized account or organization | Data availability statement; README |
+| Anonymous GitHub URL | Current staging URL is `https://github.com/OneFly0316/c2u-ner-tallip-anonymous-supplement`; formal double-blind submission requires transfer to an anonymized account or organization | Data availability statement; README |
 | Final archive DOI | Zenodo/OSF/institutional archive after acceptance or preprint release | Data availability statement |
 
 ## Recommended Final Wording Rules
@@ -29,4 +29,3 @@ This checklist converts reviewer-style concerns into concrete manuscript and sup
 - Do not equate “publicly circulated 1998 People's Daily resource” with unrestricted redistribution.
 - Keep the contribution order as: resource construction, audit/evaluation protocol, then diagnostic baseline experiments.
 - Report external validation as evidence of trend consistency, not proof of universal generalization.
-
