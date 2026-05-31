@@ -1,0 +1,12 @@
+{
+  "sample_count": 220,
+  "entity_count": 582,
+  "empty_sample_count": 37,
+  "reviewer_pair_count": 0,
+  "adjudicated_count": 0,
+  "sample_pass_rate": null,
+  "entity_pass_rate_approx": null,
+  "raw_agreement": null,
+  "cohens_kappa": null,
+  "error_types": {}
+}

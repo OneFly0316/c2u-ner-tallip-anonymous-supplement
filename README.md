@@ -28,7 +28,7 @@ Double-blind note: this repository is currently hosted under a personal account 
 - IDD construction details: Hunyuan translation prompt, hard alignment, Qwen3 soft alignment JSON schema, generative repair constraints, XLM-R bootstrap description, and audit pseudocode.
 - Evaluation protocol: strict character-level exact match with shared scripts and fixed random seeds.
 - Experiment evidence: IBP/TBR/TBRK main results, public validation results, threshold sweeps, bootstrap tests, and diagnostic ablation evidence.
-- Manual audit materials: a redacted 220-sample review schema. The non-redacted sheet should only be shared if source and derived text redistribution is permitted.
+- Manual audit materials: a redacted 220-sample review schema, controlled error-type vocabulary, and a statistics script. The non-redacted sheet should only be shared if source and derived text redistribution is permitted.
 
 ## What Is Not Included
 
